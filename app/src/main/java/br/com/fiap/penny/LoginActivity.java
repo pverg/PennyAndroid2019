@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
 
         } else {
 
-            Toast.makeText(this, "Usuário ou senha incorretos!", Toast.LENGTH_LONG);
+            Toast.makeText(this, "Usuário ou senha incorretos!", Toast.LENGTH_LONG).show();
 
         }
 

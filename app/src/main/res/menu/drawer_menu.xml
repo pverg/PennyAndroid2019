@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/navProfile"
+            android:icon="@drawable/ic_profile"
+            android:title="Perfil" />
+
+        <item android:id="@+id/navMyCredits"
+            android:icon="@drawable/ic_credits"
+            android:title="Meus Créditos" />
+
+        <item android:id="@+id/navMyPurchases"
+            android:icon="@drawable/ic_my_purchases"
+            android:title="My Purchases" />
+
+        <item android:id="@+id/navHelp"
+            android:icon="@drawable/ic_help"
+            android:title="Ajuda" />
+
+        <item android:id="@+id/navSettings"
+            android:icon="@drawable/ic_settings"
+            android:title="Configurações" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/navLogout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
