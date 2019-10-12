@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void login(View view) {
 
-        if (edtUsername.getText().toString().equals("peter") && edtPassword.getText().toString().equals("123")) {
+        if (edtUsername.getText().toString().equals("penny") && edtPassword.getText().toString().equals("2019")) {
 
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
             startActivity(intent);
